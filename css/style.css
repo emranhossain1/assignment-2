@@ -40,8 +40,7 @@ nav>ul{
     color: #131313;
 }
 .banner-desc{
-    width: 866px;
-    margin-left: 130px;
+    
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -226,6 +225,27 @@ nav>ul{
 }
 .companys img{
    filter: grayscale(100%);
+}
+
+/*bonus section style*/
+.bonus{
+    background-image: url('\\images\\car.jpg'),linear-gradient(0deg, #131313 0%, rgba(241, 91, 34, 0) 50%);
+    background-blend-mode: overlay;
+    opacity: 1;
+    height: 100vh;
+    padding-top: 100px;
+    margin-top: 50px;
+   
+    
+    
+}
+/*footer style*/
+.footer{
+    height: 80px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 50px;
 }
 
     
