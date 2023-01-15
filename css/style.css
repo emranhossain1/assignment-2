@@ -119,6 +119,14 @@ nav>ul{
     margin-top: 20px;
     border-left: 6px solid #FF900E;
 }
+.love{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #727272;
+    margin-top: 10px;
+}
+
 .extra-desc{
     font-size: 16px;
     font-weight: 400;
@@ -177,7 +185,14 @@ nav>ul{
 }
 .fact{
     width: 542px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #727272;
+    margin-top: 10px;
 }
+
+
 .client-work{
     display: flex;
     justify-content: space-around;
@@ -254,12 +269,25 @@ nav>ul{
 
 
 /*media query*/
-@media screen and (max-width:688px) {
+@media screen and (max-width:480px) {
     .header{
         width: 100%;
     }
+    .ar{
+        width: 100%;
+        margin-left: 100px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .link{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 200px;
+        margin-left: -150px;
+    }
     .banner{
-        margin-top: 0px;
+        margin-top: 150px;
         
     }
     .banner-title{
@@ -274,12 +302,9 @@ nav>ul{
        grid-template-rows: repeat(1, 1fr);
     }
     .feature-img{
-        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+        margin-left: 50px;    
     }
    
     
@@ -287,16 +312,29 @@ nav>ul{
        text-align: center;
     }
     .feature-title{
-        width: 100%;
+        width: 80%;
         text-align: center;
+    }
+    .feature-desc{
+        width: 80%;
+    }
+    
+    .extra-desc{
+        width: 90%;
+
     }
     .extra-feature{
        width: 100%;
        justify-content: center;
     }
     .extra-title{
-        width: 100%;
-        margin-left: -20pxpx;
+        width: 80%;
+       align-items: center;
+       margin-left: 50px;
+    }
+    .love{
+        width: 80%;
+        margin-left: 50px;
     }
    
     .extra-img img{
@@ -305,7 +343,7 @@ nav>ul{
     .extra-btn{
         margin: auto;
         margin-top: 100px;
-        margin-left: 220px;
+        margin-left: 130px;
         border: none;
        
     }
@@ -314,10 +352,13 @@ nav>ul{
        
     }
     .version{
+        width: 70%;
         display: grid;
         grid-template-rows: repeat(1, 1fr);
         gap: 20px;
-        justify-content: center;
+    }
+    .version-main{
+        
     }
     .fact{
        width: 100%;
