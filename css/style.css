@@ -255,6 +255,9 @@ nav>ul{
 
 /*media query*/
 @media screen and (max-width:767px) {
+    .header{
+        width: 100%;
+    }
     .banner{
         margin-top: 0px;
         
@@ -270,15 +273,55 @@ nav>ul{
        display: grid;
        grid-template-rows: repeat(1, 1fr);
     }
-   
-    .feature-img img{
+    .feature-img{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin: auto;
         gap: 20px;
+    }
+   
+    
+    .feature-main{
+       text-align: center;
+    }
+    .feature-title{
+        width: 100%;
+        text-align: center;
+    }
+    .extra-title{
+        width: 100%;
+        margin-left: -20pxpx;
+    }
+    .extra-btn{
+        width: 200px;
+        height: 120px;
+        font-size: 30px;
+        font-weight: 700;
+        background-color: #FF900E;
+        color: #FFFFFF;
+        margin-left: 560px;
+        margin-top: -100px;
         
+    }
+    .extra-btn{
+        margin: auto;
+        margin-left: 270px;
+       margin-top: 100px;
+       border: none;
+       
     }
     .factss{
         text-align: center;
+       
+    }
+    .version{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+    .fact{
+        margin-left: 100px;
     }
     .client-work{
         display: grid;
@@ -295,8 +338,10 @@ nav>ul{
         width: 100%;
     }
     .extra-feature{
+        width: 100%;
         display: grid;
         grid-template-rows: repeat(1, 1fr);
         text-align: center;
         
-}
+    }
+} 
